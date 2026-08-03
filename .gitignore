@@ -1,0 +1,23 @@
+# Entorno virtual
+.venv/
+
+# Variables de entorno
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Distribuciones
+dist/
+build/
+*.egg-info/
