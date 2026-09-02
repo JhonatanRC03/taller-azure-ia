@@ -1,0 +1,3 @@
+estandar|100
+avanzado|200
+premium|375

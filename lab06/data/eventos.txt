@@ -1,0 +1,6 @@
+Eclipse total de Sol|eclipse|10-12|america_del_norte;america_del_sur
+Lluvia de meteoros Oriónidas|lluvia_meteoros|10-21|america_del_norte;europa;asia
+Conjunción Júpiter-Venus|conjuncion|11-05|america_del_sur;africa
+Eclipse parcial de Luna|eclipse|11-28|europa;asia;oceania
+Lluvia de meteoros Gemínidas|lluvia_meteoros|12-14|america_del_norte;america_del_sur;europa
+Supernova visible|supernova|12-25|oceania;africa

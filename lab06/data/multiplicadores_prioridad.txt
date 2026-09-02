@@ -1,0 +1,3 @@
+baja|0.8
+normal|1.0
+alta|1.5

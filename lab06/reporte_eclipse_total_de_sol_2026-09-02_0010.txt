@@ -1,0 +1,23 @@
+======================================
+  OBSERVATORIOS CONTOSO - REPORTE DE SESIÓN
+======================================
+Fecha:          2026-09-02 00:10
+Observador:     Usuario
+Evento:         Eclipse total de Sol
+Ubicación:      america_del_sur
+
+PRÓXIMO EVENTO VISIBLE
+  Evento:       Eclipse total de Sol
+  Fecha:        10-12
+
+RESERVA DE TELESCOPIO
+  Nivel:            premium
+  Horas:            5
+  Tarifa por hora:  $375.00
+  Prioridad:        normal
+  Multiplicador:    1.0x
+
+RESUMEN DE COSTOS
+  Costo base:   $1875.00
+  Costo total:  $1875.00
+======================================
