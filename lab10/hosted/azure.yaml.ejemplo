@@ -1,0 +1,31 @@
+# EJEMPLO ilustrativo de lo que `azd ai agent init` generaría en la raíz
+# del proyecto. NO es funcional por sí solo (falta el resto del scaffold de
+# azd: infraestructura Bicep, extensión azure.ai.agents, etc.). Se incluye
+# solo para que veas la FORMA del archivo que amarra tu código (main.py) a
+# un proyecto real de Foundry.
+
+name: lab10-agente-hosted
+
+services:
+  agente-inventario-hosted:
+    project: hosted
+    language: python
+    host: azure.ai.agent
+    codeConfiguration:
+      entryPoint: main.py
+    uses: [ai-project]
+    environmentVariables:
+      PROJECT_ENDPOINT: ${AZURE_AI_PROJECT_ENDPOINT}
+      MODEL_DEPLOYMENT_NAME: ${AZURE_AI_MODEL_DEPLOYMENT_NAME}
+
+  ai-project:
+    host: azure.ai.project
+    deployments:
+      - name: gpt-5
+        model:
+          name: gpt-5
+          format: OpenAI
+          version: "2024-08-06"
+        sku:
+          name: GlobalStandard
+          capacity: 10
