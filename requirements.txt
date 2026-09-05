@@ -6,3 +6,4 @@ mcp
 fastmcp
 agent-framework-foundry
 agent-framework-devui
+agent-framework-orchestrations
